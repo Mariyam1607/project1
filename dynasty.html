@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Династия</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project/css/style.css">
+    <link rel="stylesheet" href="project/css/core.css">
+    <link rel="stylesheet" href="project/css/dynasty.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="index.html">
+                    <div class="logotype">
+                        <span class="gold">MUHTEŞEM</span>
+                        <span class="white">YÜZYIL</span>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="dynasty.html">Династия</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="history.html">История</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="game.html">Игра</a>
+                    </li>
+                </ul>
+<!--                <button class="btn" id="btn-get">Click me!</button>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="dynasty">
+        <h2>Османская династия</h2>
+
+            <div id="dynasty_tree"></div>
+
+        <div class="smoke"></div>
+    </div>
+
+    <div class="move_block">
+        <div class="container">
+            <h2>Владения империи</h2>
+            <div class="ottoman_map">
+                <div class="parent_block">
+
+                    <div class="route">
+                        <div class="route-line"></div>
+                        <div class="route-arrow"></div>
+
+<!--                        <img src="https://image.shutterstock.com/image-vector/ottoman-empire-flags-turkey-old-260nw-2445225879.jpg" class="ottoman-flag">-->
+
+                        <div class="conquest-text">1517г. - Завоевание Египта</div>
+                    </div>
+
+
+                    <img src="https://www.pngarts.com/files/3/Compass-PNG-Pic.png" class="compass">
+
+                    <div class="child_block"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stopwatch">
+        <div class="container">
+            <h2 class="test">ТЕСТ</h2>
+            <div class="time">
+                <div class="time_block">
+                    <div class="interval" id="seconds">0</div>
+                </div>
+            </div>
+            <div class="time_buttons">
+                <button class="btn" id="start">Start</button>
+<!--                <button class="btn" id="stop">Stop</button>-->
+<!--                <button class="btn" id="reset">Reset</button>-->
+            </div>
+        </div>
+        <div class="quiz">
+            <h3 id="question">Вопрос</h3>
+            <div class="answers">
+                <button class="answer red"></button>
+                <button class="answer blue"></button>
+                <button class="answer yellow"></button>
+                <button class="answer green"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="inner_footer">
+                <h2>Made by Mariyam</h2>
+            </div>
+            <a href="https://www.instagram.com/mari__07_/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram">
+            </a>
+            <a href="https://t.me/mari_dzh7" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="telegram">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <label>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                </label>
+                <label>
+                    <input required placeholder="Ваш номер телефона" name="phone" class="modal_input">
+                </label>
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="project/js/dynasty.js"></script>
+<script src="project/js/modal.js"></script>
+</html>

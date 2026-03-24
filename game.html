@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра</title>
+    <link rel="stylesheet" href="project/css/style.css">
+    <link rel="stylesheet" href="project/css/core.css">
+    <link rel="stylesheet" href="project/css/game.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="index.html">
+                    <div class="logotype">
+                        <span class="gold">MUHTEŞEM</span>
+                        <span class="white">YÜZYIL</span>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="dynasty.html">Династия</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="history.html">История</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/game.html">Игра</a>
+                    </li>
+                </ul>
+                <!--                <button class="btn" id="btn-get">Click me!</button>-->
+            </div>
+        </div>
+    </div>
+    <section class="palace_game">
+
+        <h1>Memory игра</h1>
+        <h2>Найди одинаковых персонажей</h2>
+        <!-- уровни сложности -->
+        <div class="levels">
+            <button data-level="6">Лёгкий</button>
+            <button data-level="12">Средний</button>
+            <button data-level="20">Сложный</button>
+        </div>
+        <!-- информация -->
+        <div class="info">
+            <p>⏱ Время: <span id="time">0</span></p>
+            <p>🎯 Ходы: <span id="moves">0</span></p>
+        </div>
+        <!-- поле игры -->
+        <div class="game" id="game"></div>
+        <!-- экран победы -->
+        <div id="win" class="win">
+            <h2>🎉 Победа!</h2>
+            <p>Ходы: <span id="winMoves"></span></p>
+            <p>Время: <span id="winTime"></span> сек</p>
+            <button class="restart-btn" onclick="restartGame()">Играть снова</button>
+        </div>
+
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="inner_footer">
+                <h2>Made by Mariyam</h2>
+            </div>
+            <a href="https://www.instagram.com/mari__07_/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram">
+            </a>
+            <a href="https://t.me/mari_dzh7" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="telegram">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="project/js/game.js"></script>
+<script src="project/js/modal.js"></script>
+</html>

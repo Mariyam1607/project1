@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Великолепный Век</title>
+    <link rel="stylesheet" href="project/css/style.css">
+    <link rel="stylesheet" href="project/css/core.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="index.html">
+                    <div class="logotype">
+
+                        <span class="gold">MUHTEŞEM</span>
+                        <span class="white">YÜZYIL</span>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="dynasty.html">Династия</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="history.html">История</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="game.html">Игра</a>
+                    </li>
+                </ul>
+<!--                <button class="btn" id="btn-get">В гарем!</button>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="main_block">
+
+        <div class="overlay"></div>
+        <canvas id="dustCanvas"></canvas>
+
+        <div class="container">
+            <div class="inner_main">
+                <div class="text_side">
+                    <h1 class="title">«ВЕЛИКОЛЕПНЫЙ ВЕК»</h1>
+
+                    <p class="main_text">
+                        История власти, любви и борьбы за трон.
+                    </p>
+
+                    <p class="quote">
+                        «Империей правит не только меч, но и сердце.»
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="slider_block">
+        <div class="container">
+            <div class="inner_slider">
+                <h2>Главные персонажи</h2>
+                <div class="slider">
+                    <button class="btn-slide" id="prev">&lt;prev</button>
+
+                    <div class="personage-card" id="personageCard"></div>
+                    <button class="btn-slide" id="next">next&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="chronicle">
+        <div class="chronicle_item">
+            <h2>Хроника дворца</h2>
+
+            <div class="buttons">
+                <button onclick="openScroll('love')">История любви</button>
+                <button onclick="openScroll('power')">Борьба за трон</button>
+                <button onclick="openScroll('facts')">Интересные факты</button>
+            </div>
+
+            <div class="scroll-container">
+
+                <div class="scroll-roll left-roll"></div>
+
+                <div class="scroll-paper" id="scroll">
+                    <div class="feather" id="feather"></div>
+                    <p id="scroll-text"></p>
+                </div>
+
+                <div class="scroll-roll right-roll"></div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="block_video">
+        <div class="container">
+            <h3>Трейлер всего сериала</h3>
+            <div class="inner_block_video">
+                <iframe width="95%" height="500" src="https://www.youtube.com/embed/A7Vh9AcuWgE" title="YouTube video player" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="inner_footer">
+                <h2>Made by Mariyam</h2>
+            </div>
+            <a href="https://www.instagram.com/mari__07_/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram">
+            </a>
+            <a href="https://t.me/mari_dzh7" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="telegram">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&#10006;</div>
+                <div class="modal_title">Добро пожаловать в историю Великолепного Века!</div>
+                <label>
+                    <input
+                        required
+                        placeholder="Ваше имя"
+                        name="name"
+                        type="text"
+                        class="modal_input"
+                    >
+                </label>
+                <label>
+                    <input
+                        required
+                        placeholder="Ваш номер телефона"
+                        name="phone"
+                        type="text"
+                        class="modal_input"
+                    >
+                </label>
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="project/js/main.js"></script>
+<script src="project/js/modal.js"></script>
+</html>
+
