@@ -11,7 +11,7 @@ const characters = [
     "bali_bey"
 ]
 
-const matchSound = new Audio("../../sounds/match.mp3")
+const matchSound = new Audio("sounds/match.mp3")
 
 const game = document.querySelector("#game")
 
@@ -26,7 +26,7 @@ let timer = null
 const movesEl = document.querySelector("#moves")
 const timeEl = document.querySelector("#time")
 
-// выбор уровня
+
 document.querySelectorAll(".levels button").forEach(btn=>{
     btn.addEventListener("click",()=>{
         level = btn.dataset.level
@@ -68,7 +68,7 @@ function createGame(cards){
         card.innerHTML = `
         <div class="front"></div>
         <div class="back">
-        <img src="../../images/${name}.jpg">
+        <img src="images/${name}.jpg">
         </div>
         `
 

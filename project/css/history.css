@@ -399,23 +399,21 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-    /*margin-top: 20px;*/
+
 }
 .video-side {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* видео */
+
 video {
     border-radius: 10px;
-    /*margin-top: 20px;*/
     text-align: center;
     /*width: 400px;*/
     /*height: 500px;*/
 }
 
-/* текст */
 .description {
     max-width: 400px;
     line-height: 1.6;
@@ -428,7 +426,6 @@ video {
     font-size: 18px;
 }
 
-/* кнопки */
 .controls button {
     margin-top: 10px;
     gap: 10px;
@@ -438,56 +435,9 @@ video {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    width: 150px;        /* растягивает по ширине */
-    max-width: 900px;  /* ограничение */
-    height: auto;      /* сохраняет пропорции */
+    width: 150px;
+    max-width: 900px;
+    height: auto;
     border-radius: 10px;
     background: #9c8f44;
 }
-
-/*.vid {*/
-/*    display: flex;*/
-/*    justify-content: center;   !* по горизонтали *!*/
-/*    align-items: center;       !* по вертикали *!*/
-/*    height: 100vh;*/
-/*    text-align: center;*/
-/*    padding: 100px 0;*/
-/*    !*margin: 0;*!*/
-/*    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(11, 2, 6, 0.87)),*/
-/*    url("https://images.openai.com/static-rsc-3/UPapXbfNpJBg6zaVR8d2PH-zl7s8k87vPQQaRwfzKiRZQapHGH8-24hMzwjcqrBbcGAfi64_Q3_9M1NWNP_U8BZA3ysdBF1vNA6DlkxxcNw?purpose=fullsize&v=1");*/
-/*    background-position: center;*/
-/*    !*animation: moveBackground 30s linear infinite;*!*/
-/*}*/
-/*.container {*/
-/*    !*margin-top: 50px;*!*/
-
-/*    !*margin: 0;*!*/
-/*}*/
-
-/*video {*/
-/*    border-radius: 10px;*/
-/*    margin-top: 20px;*/
-/*    text-align: center;*/
-/*    width: 1000px;*/
-/*    height: 650px;*/
-/*}*/
-
-/*.controls button {*/
-/*    margin: 10px;*/
-/*    padding: 10px 20px;*/
-/*    font-size: 16px;*/
-/*    cursor: pointer;*/
-/*    width: 200px;        !* растягивает по ширине *!*/
-/*    max-width: 900px;  !* ограничение *!*/
-/*    height: auto;      !* сохраняет пропорции *!*/
-/*    border-radius: 10px;*/
-/*    background: #9c8f44;*/
-/*}*/
-/*.description {*/
-/*    max-width: 800px;*/
-/*    margin: 20px auto;*/
-/*    padding: 15px;*/
-/*    background: #222;*/
-/*    border-radius: 10px;*/
-/*    line-height: 1.6;*/
-/*}*/

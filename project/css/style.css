@@ -639,65 +639,65 @@ iframe{
 
 /* MODAL */
 
-.modal {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    display: none;
-}
+/*.modal {*/
+/*    position: fixed;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    z-index: 2;*/
+/*    background: rgba(0, 0, 0, 0.5);*/
+/*    backdrop-filter: blur(10px);*/
+/*    display: none;*/
+/*}*/
 
-.modal_dialog {
-    max-width: 500px;
-    margin: 200px auto;
-}
+/*.modal_dialog {*/
+/*    max-width: 500px;*/
+/*    margin: 200px auto;*/
+/*}*/
 
-.modal_content {
-    position: relative;
-    width: 100%;
-    padding: 40px;
-    background-color: black;
-    border: 2px solid var(--orange);
-    border-radius: 4px;
-    max-height: 80vh;
-    overflow-y: auto;
-}
+/*.modal_content {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    padding: 40px;*/
+/*    background-color: black;*/
+/*    border: 2px solid var(--orange);*/
+/*    border-radius: 4px;*/
+/*    max-height: 80vh;*/
+/*    overflow-y: auto;*/
+/*}*/
 
-.modal_content form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/*.modal_content form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
 
-.modal_close {
-    position: absolute;
-    top: 8px;
-    right: 14px;
-    font-size: 30px;
-    color: red;
-    opacity: 0.5;
-    font-weight: 700;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
+/*.modal_close {*/
+/*    position: absolute;*/
+/*    top: 8px;*/
+/*    right: 14px;*/
+/*    font-size: 30px;*/
+/*    color: red;*/
+/*    opacity: 0.5;*/
+/*    font-weight: 700;*/
+/*    border: none;*/
+/*    background-color: transparent;*/
+/*    cursor: pointer;*/
+/*}*/
 
-.modal_title {
-    text-align: center;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: white;
-}
+/*.modal_title {*/
+/*    text-align: center;*/
+/*    font-size: 22px;*/
+/*    text-transform: uppercase;*/
+/*    color: white;*/
+/*}*/
 
-.modal_content label, .btn_min {
-    width: 100% !important;
-    margin-top: 10px;
-}
+/*.modal_content label, .btn_min {*/
+/*    width: 100% !important;*/
+/*    margin-top: 10px;*/
+/*}*/
 
-.modal_content input {
-    width: 100%;
-}
+/*.modal_content input {*/
+/*    width: 100%;*/
+/*}*/
