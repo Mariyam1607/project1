@@ -11,7 +11,7 @@ const characters = [
     "bali_bey"
 ]
 
-const matchSound = new Audio("../sounds/match.mp3")
+const matchSound = new Audio("sounds/match.mp3")
 
 const game = document.querySelector("#game")
 
@@ -30,7 +30,6 @@ const timeEl = document.querySelector("#time")
 document.querySelectorAll(".levels button").forEach(btn=>{
     btn.addEventListener("click",()=>{
         level = +btn.dataset.level
-        // level = btn.dataset.level
         startGame()
     })
 })
@@ -57,19 +56,16 @@ function startGame(){
 function createGame(cards){
 
     game.innerHTML = ""
-
     cards.forEach(name=>{
-
         const card = document.createElement("div")
 
         card.classList.add("card")
 
         card.dataset.name = name
-
         card.innerHTML = `
         <div class="front"></div>
         <div class="back">
-        <img src="../images/${name}.jpg">
+        <img src="images/${name}.jpg">
         </div>
         `
 
