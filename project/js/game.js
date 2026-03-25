@@ -29,7 +29,8 @@ const timeEl = document.querySelector("#time")
 
 document.querySelectorAll(".levels button").forEach(btn=>{
     btn.addEventListener("click",()=>{
-        level = btn.dataset.level
+        level = +btn.dataset.level
+        // level = btn.dataset.level
         startGame()
     })
 })
@@ -110,8 +111,14 @@ function checkMatch(){
 
         setTimeout(()=>{
 
-            firstCard.classList.remove("flip")
-            secondCard.classList.remove("flip")
+            if(firstCard && secondCard){
+                firstCard.classList.remove("flip")
+                secondCard.classList.remove("flip")
+            }
+
+
+            // firstCard.classList.remove("flip")
+            // secondCard.classList.remove("flip")
 
             firstCard = null
             secondCard = null
